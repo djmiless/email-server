@@ -9,7 +9,7 @@ const mongodb = require("mongodb");
 //create the mongodb client
 const MongoClient = mongodb.MongoClient;
 
-const client = new MongoClient("mongodb+srv://cyclobold_user:e6b5eBt.$5PAcgx@cluster0.qcoqo.mongodb.net/?retryWrites=true&w=majority")
+const client = new MongoClient("mongodb://admin:password@localhost:27017")
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
